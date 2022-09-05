@@ -47,7 +47,10 @@ import { FaBug, FaRegCalendarCheck, FaRegFileAlt } from 'react-icons/fa'
     subtitle='26/03/2019 09:51'
     action={{
       label: 'Ver detalhes...',
-      onClick: () => window.alert('Erro!')
+      onClick: () => window.alert('Erro!'),
+      style: {
+        color: 'white',
+      }
     }}
   />
 </Timeline>
